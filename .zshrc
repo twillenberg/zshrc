@@ -104,39 +104,46 @@ PROMPT='%n@%M %~: '
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
-
 alias act="conda activate"
-alias deact="conda deactivate"
-
 alias cls="clear"
+alias cls="clear"
+alias cz="vim ~/.zshrc"                                                                                                                                        
+alias deact="conda deactivate"
 alias dns="nslookup"
-alias gs="git status"
+alias ga="git add *"
+alias gc="git commit -m"
 alias gp="git push"
+alias gs="git status"
+alias gs="git status"
 alias hn="hostname"
 alias home="cd ~"
+alias home="cd ~"
 alias lp="ls -lpF"
+alias lt="exa --tree"
 alias lt="exa --tree"
 alias mamp="/Applications/MAMP/Library/bin/mysql -u root -p"
 alias math="wolframscript"
 alias msc='msfconsole'
 alias nv='nvim'
 alias p="pwd"
+alias p="sudo hping3"
 alias path="echo $PATH | tr ':' '\n' > awk '{ print length, $0, $1 }' | sort -n -s"
 alias proxy='mitmproxy'
 alias py="python"
 alias rc='wc -l'
 alias repos="cd ~/Code/_repos_/ && pwd" 
+alias sql="mysqlsh"
+alias src="source ~/.zshrc"
 alias src="source ~/.zshrc"
 alias ssl="openssl"
-alias sql="mysqlsh"
+alias sz="exa --oneline --reverse --sort=size"
 alias tm="tmate"
 alias ts="tmate show-messages"
+alias up-="cd .."
 alias up="cd .."
 alias ws="cd /usr/local/Cellar/wireshark/3.4.9/bin"
 alias x="exit"
 alias zcf="vim ~/.zshrc"
-alias sz="exa --oneline --reverse --sort=size"
-
 
 export PATH="/usr/local/Cellar/wireshark/3.4.9/bin:$PATH"
 export PATH="/usr/local/mysql/bin:$PATH"
